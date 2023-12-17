@@ -59,15 +59,15 @@ app.post('/calculate-insurance', (req, res) => {
 
     if (animal !== "Chat") {
         if (!breed || !size || !age) {
-            return res.status(400).json({ error: 'Breed, size, and age are required parameters.' });
+            return res.status(400).json({ error: "La race, la taille, et l'age sont des paramètres requis." });
         }
 
         if (!breeds[breed]) {
-            return res.status(400).json({ error: 'Invalid dog breed.' });
+            return res.status(400).json({ error: "Race de chien non valide." });
         }
 
         if (!breeds[breed].includes(size)) {
-            return res.status(400).json({ error: 'Invalid dog size for the selected breed.' });
+            return res.status(400).json({ error: "Taille de chien non valide pour la race séléctionnée." });
         }
     }
 
