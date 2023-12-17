@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculateur d'assurance</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="container-row form-container">
+        <h1 class="title">Dites nous en plus sur votre boule de poils 😊</h1>
+        <form action="/calculate-insurance" method="post">
+
+            <div class="form-row">
+                <label for="animal">Type d'animal</label>
+                <select name="animal" id="animal" required>
+                    <option value="">Selectionnez un type d'animal</option>
+                    <% animalTypes.forEach(animal => { %>
+                        <option value="<%= animal %>"><%= animal %></option>
+                    <% }); %>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="age">Age de l'animal</label>
+                <input type="number" name="age" id="age" required>
+            </div>
+
+            <div class="form-row" id="breed-row" style="display: none">
+                <label for="breed">Race de chien</label>
+                <select name="breed" id="breed" required>
+                    <option value="">Selectionnez une race de chien</option>
+                    <% Object.keys(breeds).forEach(breed => { %>
+                        <option value="<%= breed %>"><%= breed %></option>
+                    <% }); %>
+                </select>
+            </div>
+
+            <div class="form-row" id="size-row" style="display: none">
+                <label for="size">Taille d'animal</label>
+                <select name="size" id="size" required>
+                    <option value="" disabled selected>Selectionnez une taille</option>
+                </select>
+            </div>
+
+            <button class="button" type="submit">Calculer</button>
+        </form>
+    </div>
+
+    <% if (result) { %>
+        <div class="container-row result-container">
+            <h1> Voici quelques offres pour votre petit protégé 🐱‍👤</h1>
+            <div id="result">
+                <% Object.keys(result).forEach(type => {
+                if (typeof result[type] != "string") { %>
+                    <div class="card">
+                        <p class="card-title"><%= type.replace('_plus', ' +') %></p>
+                        <p class="card-price"><%= result[type] %> €</p>
+                    </div>
+                <% }}); %>
+            </div>
+        </div>
+    <% } %>
+
+    <div class="container-row logo-container">
+        <p> Powered by </p>
+        <svg width="122" height="27" viewBox="0 0 122 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.623047 3.0544C0.623047 1.58964 1.79738 0.402222 3.246 0.402222H58.8526C60.3012 0.402222 61.4755 1.58964 61.4755 3.0544V24.2718C61.4755 25.7365 60.3012 26.924 58.8526 26.924H3.246C1.79738 26.924 0.623047 25.7365 0.623047 24.2718V3.0544Z"
+                  fill="#4150F7"/>
+            <path d="M29.9455 3.65267H36.7064L28.5857 23.7413H22.7313L20.0496 16.103L17.3679 23.7413H11.5135L3.39282 3.65267H10.1537L14.8751 16.9432L16.197 12.4367L12.5711 3.65267H18.3499L20.0496 9.53413L21.7493 3.65267H27.5282L23.9022 12.4367L25.2242 16.9432L29.9455 3.65267Z"
+                  fill="white"/>
+            <path d="M47.2349 24.1232C44.9183 24.1232 42.9417 23.6522 41.305 22.7101C39.6934 21.7681 38.4596 20.5205 37.6034 18.9674C36.7725 17.4143 36.357 15.7466 36.357 13.9643C36.357 12.0293 36.7725 10.2598 37.6034 8.65573C38.4344 7.02623 39.6556 5.72773 41.2672 4.76021C42.8787 3.76724 44.868 3.27075 47.2349 3.27075C49.6019 3.27075 51.5911 3.75451 53.2027 4.72202C54.8142 5.68954 56.0354 6.96258 56.8664 8.54115C57.6973 10.1197 58.1128 11.8383 58.1128 13.697C58.1128 14.4863 58.0499 15.2246 57.924 15.9121H43.9867C44.0622 16.9814 44.4525 17.758 45.1575 18.2417C45.8626 18.7 46.6306 18.9292 47.4615 18.9292C48.2421 18.9292 48.9724 18.751 49.6522 18.3945C50.3573 18.0381 50.8231 17.5416 51.0497 16.9051L57.1308 18.6619C56.325 20.2659 55.0786 21.5771 53.3915 22.5956C51.7044 23.614 49.6522 24.1232 47.2349 24.1232ZM43.8356 11.5583H50.4076C50.3069 10.5908 49.9544 9.82693 49.3501 9.26679C48.7709 8.70665 48.0281 8.42658 47.1216 8.42658C46.2151 8.42658 45.4723 8.70665 44.8931 9.26679C44.314 9.82693 43.9615 10.5908 43.8356 11.5583Z"
+                  fill="white"/>
+            <path d="M73.3729 24.1233C71.6355 24.1233 69.9232 23.8432 68.2362 23.2831C66.5743 22.6975 65.1642 21.8573 64.0059 20.7625L66.4609 16.2941C67.6948 17.1088 68.8783 17.7454 70.0114 18.2037C71.1697 18.662 72.2146 18.8911 73.1463 18.8911C74.1787 18.8911 74.6949 18.5856 74.6949 17.9745C74.6949 17.6435 74.4809 17.3762 74.0528 17.1725C73.6499 16.9688 72.9952 16.7269 72.0887 16.4469C70.5276 15.8867 69.2182 15.3648 68.1606 14.881C67.1282 14.3973 66.3476 13.8117 65.8188 13.1242C65.3152 12.4113 65.0634 11.4693 65.0634 10.2981C65.0634 8.23573 65.8188 6.54258 67.3297 5.21861C68.8405 3.89465 70.9304 3.23267 73.5996 3.23267C74.9341 3.23267 76.2687 3.44908 77.6032 3.88192C78.963 4.28929 80.2723 5.04039 81.5314 6.13521L78.8119 10.5654C77.5529 9.77611 76.4827 9.21597 75.6014 8.88498C74.7453 8.55399 73.9773 8.38849 73.2974 8.38849C72.2398 8.38849 71.711 8.74495 71.711 9.45785C71.711 9.83976 71.9125 10.1326 72.3154 10.3363C72.7183 10.5399 73.3604 10.7691 74.2417 11.0237C75.9539 11.5329 77.3514 12.0549 78.4342 12.5895C79.5169 13.0988 80.3101 13.7225 80.8137 14.4609C81.3425 15.1993 81.6069 16.1668 81.6069 17.3635C81.6069 19.4767 80.8641 21.1317 79.3784 22.3283C77.918 23.525 75.9162 24.1233 73.3729 24.1233Z"
+                  fill="black"/>
+            <path d="M84.1366 16.867V3.65277H91.313V15.2247C91.313 16.0904 91.5019 16.7779 91.8796 17.2871C92.2825 17.7708 92.8239 18.0127 93.5037 18.0127C94.0577 18.0127 94.6242 17.8854 95.2034 17.6308C95.7825 17.3762 96.3617 16.816 96.9408 15.9504V3.65277H104.117V15.7212C104.117 16.4087 104.218 16.8924 104.419 17.1725C104.621 17.4271 104.973 17.5799 105.477 17.6308V23.7414C104.243 23.996 103.236 24.1233 102.455 24.1233C100.013 24.1233 98.6027 23.194 98.225 21.3354L98.074 20.6097C97.1423 21.8573 96.0218 22.7612 94.7124 23.3213C93.4282 23.856 91.9677 24.1233 90.331 24.1233C88.3418 24.1233 86.8058 23.4995 85.723 22.2519C84.6654 21.0044 84.1366 19.2094 84.1366 16.867Z"
+                  fill="black"/>
+            <path d="M121.896 9.83976C120.511 9.83976 119.252 9.99253 118.119 10.2981C116.985 10.6036 116.142 11.1128 115.588 11.8257V23.7414H108.412V3.65277H114.984V7.4719C115.689 6.12248 116.57 5.09131 117.628 4.37841C118.685 3.64004 119.806 3.27086 120.989 3.27086C121.468 3.27086 121.77 3.28359 121.896 3.30905V9.83976Z"
+                  fill="black"/>
+        </svg>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        const animalSelect = document.getElementById('animal');
+        const breedSelect = document.getElementById('breed');
+        const sizeSelect = document.getElementById('size');
+
+        animalSelect.addEventListener('change', () => {
+            const selectAnimal = animalSelect.value;
+
+            const breedRow = document.getElementById("breed-row");
+            const sizeRow = document.getElementById("size-row");
+
+            breedRow.style.display = selectAnimal === "Chien" ? "flex" : "none"
+            sizeRow.style.display = selectAnimal === "Chien" ? "flex" : "none"
+            breedSelect.required = selectAnimal === "Chien"
+            sizeSelect.required = selectAnimal === "Chien"
+        });
+
+        breedSelect.addEventListener('change', () => {
+            const selectedBreed = breedSelect.value;
+            console.log('Selected Breed:', selectedBreed);
+
+            const breedsJson = <%- JSON.stringify(breeds) %>
+            const sizes = breedsJson[selectedBreed];
+            console.log('Sizes:', sizes);
+
+            sizeSelect.innerHTML = '<option value="" disabled selected>Selectionnez une taille</option>';
+
+            sizes.forEach(size => {
+                const option = document.createElement('option');
+                option.value = size;
+                option.textContent = size;
+                sizeSelect.appendChild(option);
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1108 @@
+{
+  "Affenpinscher": [
+    "Petit"
+  ],
+  "Airedale Terrier": [
+    "Moyen"
+  ],
+  "Akita Inu": [
+    "Grand",
+    "Très grand"
+  ],
+  "American Staffordshire Terrier": [
+    "Grand",
+    "Très grand"
+  ],
+  "Ancien Chien d'arrêt Danois": [
+    "Moyen"
+  ],
+  "Angle Français de Petite Vénerie": [
+    "Grand",
+    "Très grand"
+  ],
+  "Ariégeois": [
+    "Grand",
+    "Très grand"
+  ],
+  "Azawakh": [
+    "Moyen"
+  ],
+  "Barbet": [
+    "Grand"
+  ],
+  "Barzoï": [
+    "Très grand"
+  ],
+  "Basenji": [
+    "Moyen"
+  ],
+  "Basset Artésien Normand": [
+    "Moyen"
+  ],
+  "Basset Bleu de Gascogne": [
+    "Moyen"
+  ],
+  "Basset de Westphalie": [
+    "Moyen"
+  ],
+  "Basset des Alpes": [
+    "Moyen"
+  ],
+  "Basset Fauve de Bretagne": [
+    "Moyen"
+  ],
+  "Basset Hound": [
+    "Grand"
+  ],
+  "Beagle": [
+    "Moyen"
+  ],
+  "Beagle Harrier": [
+    "Moyen"
+  ],
+  "Bedlington Terrier": [
+    "Moyen"
+  ],
+  "Berger Allemand": [
+    "Grand"
+  ],
+  "Berger Australien d'Amérique": [
+    "Grand"
+  ],
+  "Berger Australien Kelpie": [
+    "Moyen"
+  ],
+  "Berger Belge Groenendael": [
+    "Grand"
+  ],
+  "Berger Belge Laekenois": [
+    "Grand"
+  ],
+  "Berger Belge Malinois": [
+    "Grand"
+  ],
+  "Berger Belge Tervueren": [
+    "Grand"
+  ],
+  "Berger Blanc Suisse": [
+    "Grand"
+  ],
+  "Berger Catalan": [
+    "Moyen"
+  ],
+  "Berger d'Anatolie": [
+    "Très grand"
+  ],
+  "Berger d'Asie Centrale": [
+    "Très grand"
+  ],
+  "Berger d'Islande": [
+    "Moyen"
+  ],
+  "Berger de Beauce": [
+    "Grand"
+  ],
+  "Berger de Bergame": [
+    "Grand"
+  ],
+  "Berger de Brie": [
+    "Moyen"
+  ],
+  "Berger de Croatie": [
+    "Moyen"
+  ],
+  "Berger de Krast": [
+    "Grand"
+  ],
+  "Berger de Maremme et Abruzzes": [
+    "Grand"
+  ],
+  "Berger de Russie Méridionale": [
+    "Grand"
+  ],
+  "Berger des Pyrénées à face rase": [
+    "Moyen"
+  ],
+  "Berger des Pyrénées à poil long": [
+    "Moyen"
+  ],
+  "Berger des Shetland": [
+    "Petit"
+  ],
+  "Berger du Caucase": [
+    "Très grand"
+  ],
+  "Berger Espagnol de Majorque": [
+    "Grand"
+  ],
+  "Berger Finnois de Laponie": [
+    "Grand"
+  ],
+  "Berger Hollandais à poil court": [
+    "Grand"
+  ],
+  "Berger Hollandais à poil dur": [
+    "Grand"
+  ],
+  "Berger Hollandais à poil long": [
+    "Grand"
+  ],
+  "Berger Picard": [
+    "Grand"
+  ],
+  "Berger Polonais de Plaine": [
+    "Moyen"
+  ],
+  "Berger Polonais de Podhale": [
+    "Très grand"
+  ],
+  "Berger Portugais": [
+    "Moyen"
+  ],
+  "Berger Slovaque": [
+    "Grand"
+  ],
+  "Berger Yougoslave": [
+    "Grand"
+  ],
+  "Bichon à poil Frisé": [
+    "Petit"
+  ],
+  "Bichon Bolonais": [
+    "Petit"
+  ],
+  "Bichon Havanais": [
+    "Petit"
+  ],
+  "Bichon Maltais": [
+    "Petit"
+  ],
+  "Billy": [
+    "Grand"
+  ],
+  "Bobtail": [
+    "Grand"
+  ],
+  "Border Collie": [
+    "Moyen"
+  ],
+  "Border Terrier": [
+    "Petit"
+  ],
+  "Bouledogue Americain": [
+    "Grand"
+  ],
+  "Bouledogue Anglais": [
+    "Moyen"
+  ],
+  "Bouledogue Français": [
+    "Moyen"
+  ],
+  "Bouvier Australien": [
+    "Moyen"
+  ],
+  "Bouvier Bernois": [
+    "Très grand"
+  ],
+  "Bouvier d'Appenzell": [
+    "Moyen"
+  ],
+  "Bouvier de l'Entlebuch": [
+    "Moyen"
+  ],
+  "Bouvier des Ardennes": [
+    "Grand"
+  ],
+  "Bouvier des Flandres": [
+    "Très grand"
+  ],
+  "Boxer": [
+    "Grand"
+  ],
+  "Brachet Allemand à poil court": [
+    "Moyen"
+  ],
+  "Brachet Autrichien Noir et Feu": [
+    "Moyen"
+  ],
+  "Brachet de Styrie à poil dur": [
+    "Moyen"
+  ],
+  "Brachet Polonais": [
+    "Grand"
+  ],
+  "Brachet Tyrolien": [
+    "Moyen"
+  ],
+  "Braque Allemand à poil court": [
+    "Grand"
+  ],
+  "Braque Allemand à poil dur": [
+    "Grand"
+  ],
+  "Braque d'Auvergne": [
+    "Moyen"
+  ],
+  "Braque de Burgos": [
+    "Grand"
+  ],
+  "Braque de l'Ariège": [
+    "Grand"
+  ],
+  "Braque de Weimar à poil court": [
+    "Grand"
+  ],
+  "Braque de Weimar à poil long": [
+    "Grand"
+  ],
+  "Braque du Bourbonnais": [
+    "Grand"
+  ],
+  "Braque Dupuy": [
+    "Grand"
+  ],
+  "Braque Français type Gascogne": [
+    "Grand"
+  ],
+  "Braque Français type Pyrénées": [
+    "Moyen"
+  ],
+  "Braque Hongrois à poil court": [
+    "Grand"
+  ],
+  "Braque Hongrois à poil dur": [
+    "Grand"
+  ],
+  "Braque Italien": [
+    "Grand"
+  ],
+  "Braque Portuguais": [
+    "Grand"
+  ],
+  "Braque Saint Germain": [
+    "Moyen"
+  ],
+  "Braque Slovaque à poil dur": [
+    "Grand"
+  ],
+  "Briquet Griffon Vendéen": [
+    "Grand"
+  ],
+  "Broholmer": [
+    "Très grand"
+  ],
+  "Bruno du Jura type Bruno": [
+    "Moyen"
+  ],
+  "Bruno du Jura type Saint Hubert": [
+    "Moyen"
+  ],
+  "Buhund Norvégien": [
+    "Grand"
+  ],
+  "Bull Terrier": [
+    "Moyen"
+  ],
+  "Bull Terrier Miniature": [
+    "Moyen"
+  ],
+  "Bullmastiff": [
+    "Très grand"
+  ],
+  "Cairn Terrier": [
+    "Petit"
+  ],
+  "Cane Corso": [
+    "Très grand"
+  ],
+  "Caniche": [
+    "Petit"
+  ],
+  "Cao de Castro Laboreiro": [
+    "Grand"
+  ],
+  "Cao Fila de Sao Miguel": [
+    "Grand"
+  ],
+  "Carlin": [
+    "Petit"
+  ],
+  "Cavalier King Charles": [
+    "Petit"
+  ],
+  "Chien Chinois à Crête": [
+    "Petit"
+  ],
+  "Chien Corse": [
+    "Moyen"
+  ],
+  "Chien Courant Bernois": [
+    "Moyen"
+  ],
+  "Chien Courant d'Istrie à poil dur": [
+    "Moyen"
+  ],
+  "Chien Courant d'Istrie à poil ras": [
+    "Moyen"
+  ],
+  "Chien Courant de Bosnie": [
+    "Moyen"
+  ],
+  "Chien Courant de Halden": [
+    "Moyen"
+  ],
+  "Chien Courant de Hygen": [
+    "Moyen"
+  ],
+  "Chien Courant de Posavatz": [
+    "Grand"
+  ],
+  "Chien Courant de Schwyz": [
+    "Moyen"
+  ],
+  "Chien Courant de Transylvanie": [
+    "Grand"
+  ],
+  "Chien Courant des Balkans": [
+    "Moyen"
+  ],
+  "Chien Courant Espagnol": [
+    "Moyen"
+  ],
+  "Chien Courant Finnois": [
+    "Grand"
+  ],
+  "Chien Courant Grec": [
+    "Moyen"
+  ],
+  "Chien Courant Italien à poil court": [
+    "Moyen"
+  ],
+  "Chien Courant Italien à poil dur": [
+    "Grand"
+  ],
+  "Chien Courant Lucernois": [
+    "Moyen"
+  ],
+  "Chien Courant Slovaque": [
+    "Moyen"
+  ],
+  "Chien Courant Yougoslave de Montagne": [
+    "Grand"
+  ],
+  "Chien Courant Yougoslave Tricolore": [
+    "Grand"
+  ],
+  "Chien d'arrêt Allemand à poil long": [
+    "Grand"
+  ],
+  "Chien d'Artois": [
+    "Grand"
+  ],
+  "Chien d'eau Américain": [
+    "Moyen"
+  ],
+  "Chien d'eau Espagnol": [
+    "Moyen"
+  ],
+  "Chien d'eau Frison": [
+    "Grand"
+  ],
+  "Chien d'eau Irlandais": [
+    "Grand"
+  ],
+  "Chien d'eau Portugais": [
+    "Moyen"
+  ],
+  "Chien d'eau Romagnol": [
+    "Moyen"
+  ],
+  "Chien d'Elan Norvégien gris": [
+    "Moyen"
+  ],
+  "Chien d'Elan Norvégien noir": [
+    "Moyen"
+  ],
+  "Chien d'Elan Suédois": [
+    "Grand"
+  ],
+  "Chien d'Ours de Carélie": [
+    "Grand"
+  ],
+  "Chien d'Oysel": [
+    "Moyen"
+  ],
+  "Chien de Canaan": [
+    "Moyen"
+  ],
+  "Chien de l'Atlas": [
+    "Grand"
+  ],
+  "Chien de Loutre": [
+    "Grand"
+  ],
+  "Chien de montagne Portugais à poil court": [
+    "Très grand"
+  ],
+  "Chien de montagne Portugais à poil ondulé": [
+    "Très grand"
+  ],
+  "Chien des Goths": [
+    "Moyen"
+  ],
+  "Chien du Mexique à peau nue": [
+    "Petit"
+  ],
+  "Chien du Pérou à peau nue": [
+    "Petit"
+  ],
+  "Chien du Pharaon": [
+    "Moyen"
+  ],
+  "Chien Finnois de Laponie": [
+    "Grand"
+  ],
+  "Chien Léopard Catahoula": [
+    "Grand"
+  ],
+  "Chien Loup de Saarloos": [
+    "Grand"
+  ],
+  "Chien Loup Tchèque": [
+    "Grand"
+  ],
+  "Chien Norvégien de Macareux": [
+    "Petit"
+  ],
+  "Chien rouge de Bavière": [
+    "Moyen"
+  ],
+  "Chien rouge de Hanovre": [
+    "Grand"
+  ],
+  "Chien Suédois de Laponie": [
+    "Moyen"
+  ],
+  "Chihuahua": [
+    "Petit"
+  ],
+  "Chow Chow": [
+    "Grand"
+  ],
+  "Cirneco de l'Etna": [
+    "Moyen"
+  ],
+  "Clumber": [
+    "Grand"
+  ],
+  "Cocker Américain": [
+    "Moyen"
+  ],
+  "Cocker Anglais": [
+    "Moyen"
+  ],
+  "Colley à poil court": [
+    "Moyen"
+  ],
+  "Colley à poil long": [
+    "Moyen"
+  ],
+  "Colley Barbu": [
+    "Grand"
+  ],
+  "Coonhound noir et feu": [
+    "Grand"
+  ],
+  "Coton de Tulear": [
+    "Petit"
+  ],
+  "Dalmatien": [
+    "Grand"
+  ],
+  "Dobermann": [
+    "Grand"
+  ],
+  "Dogo Canario": [
+    "Très grand"
+  ],
+  "Dogue Allemand": [
+    "Très grand"
+  ],
+  "Dogue Argentin": [
+    "Très grand"
+  ],
+  "Dogue de Bordeaux": [
+    "Très grand"
+  ],
+  "Dogue du Tibet": [
+    "Très grand"
+  ],
+  "Drever": [
+    "Moyen"
+  ],
+  "Dunker": [
+    "Moyen"
+  ],
+  "Epagneul à perdrix de Drente": [
+    "Moyen"
+  ],
+  "Epagneul Bleu Picard": [
+    "Moyen"
+  ],
+  "Epagneul Breton": [
+    "Moyen"
+  ],
+  "Epagneul de Saint-Usuge": [
+    "Moyen"
+  ],
+  "Epagneul du Tibet": [
+    "Petit"
+  ],
+  "Epagneul Français": [
+    "Moyen"
+  ],
+  "Epagneul Japonais": [
+    "Petit"
+  ],
+  "Epagneul Nain Continental": [
+    "Petit"
+  ],
+  "Epagneul Picard": [
+    "Moyen"
+  ],
+  "Epagneul Pont Audemer": [
+    "Moyen"
+  ],
+  "Esquimau du Groënland": [
+    "Grand"
+  ],
+  "Eurasier": [
+    "Grand"
+  ],
+  "Field Spaniel": [
+    "Moyen"
+  ],
+  "Fila Brasileiro": [
+    "Très grand"
+  ],
+  "Fox Terrier à poil dur": [
+    "Petit"
+  ],
+  "Fox Terrier à poil lisse": [
+    "Petit"
+  ],
+  "Foxhound": [
+    "Grand"
+  ],
+  "Foxhound Américain": [
+    "Grand"
+  ],
+  "Français Blanc et Noir": [
+    "Grand"
+  ],
+  "Français Blanc et Orange": [
+    "Grand"
+  ],
+  "Français Tricolore": [
+    "Grand"
+  ],
+  "Galgo Espagnol": [
+    "Grand"
+  ],
+  "Golden Retriever": [
+    "Grand"
+  ],
+  "Grand Anglo Français Blanc et Noir": [
+    "Grand"
+  ],
+  "Grand Anglo Français Blanc et Orange": [
+    "Grand"
+  ],
+  "Grand Anglo Français tricolore": [
+    "Grand"
+  ],
+  "Grand Basset Griffon Vendéen": [
+    "Grand"
+  ],
+  "Grand Bleu de Gascogne": [
+    "Grand"
+  ],
+  "Grand Bouvier Suisse": [
+    "Très grand"
+  ],
+  "Grand Chien Japonais": [
+    "Grand"
+  ],
+  "Grand Gascon Saintongeois": [
+    "Grand"
+  ],
+  "Grand Griffon Vendéen": [
+    "Grand"
+  ],
+  "Grand Munsterlander": [
+    "Grand"
+  ],
+  "Greyhound": [
+    "Grand"
+  ],
+  "Griffon à poil Laineux": [
+    "Moyen"
+  ],
+  "Griffon Belge": [
+    "Petit"
+  ],
+  "Griffon bleu de Gascogne": [
+    "Moyen"
+  ],
+  "Griffon Bruxellois": [
+    "Petit"
+  ],
+  "Griffon d'arrêt à poil dur": [
+    "Grand"
+  ],
+  "Griffon d'arrêt Tchèque": [
+    "Grand"
+  ],
+  "Griffon Fauve de Bretagne": [
+    "Moyen"
+  ],
+  "Griffon Nivernais": [
+    "Grand"
+  ],
+  "Hamilton Stovare": [
+    "Grand"
+  ],
+  "Harrier": [
+    "Grand"
+  ],
+  "Hokkaido": [
+    "Grand"
+  ],
+  "Hovawart": [
+    "Grand"
+  ],
+  "Husky Sibérien": [
+    "Grand"
+  ],
+  "Jack Russell Terrier": [
+    "Petit"
+  ],
+  "Jagd Terrier": [
+    "Petit"
+  ],
+  "Kai": [
+    "Grand"
+  ],
+  "Kerry Blue Terrier": [
+    "Moyen"
+  ],
+  "King Charles": [
+    "Petit"
+  ],
+  "Kishu": [
+    "Moyen"
+  ],
+  "Komondor": [
+    "Très grand"
+  ],
+  "Korea Jindo Dog": [
+    "Moyen"
+  ],
+  "Kromfohrlander": [
+    "Moyen"
+  ],
+  "Kuvasz": [
+    "Très grand"
+  ],
+  "Kyi Leo": [
+    "Petit"
+  ],
+  "Labrador": [
+    "Grand"
+  ],
+  "Laika de Sibérie Occidentale": [
+    "Moyen"
+  ],
+  "Laika de Sibérie Orientale": [
+    "Moyen"
+  ],
+  "Laika Russo Européen": [
+    "Moyen"
+  ],
+  "Lakeland Terrier": [
+    "Petit"
+  ],
+  "Landseer": [
+    "Très grand"
+  ],
+  "Leonberg": [
+    "Très grand"
+  ],
+  "Lévrier Afghan": [
+    "Grand"
+  ],
+  "Lévrier Ecossais": [
+    "Très grand"
+  ],
+  "Lévrier Hongrois": [
+    "Grand"
+  ],
+  "Lévrier Irlandais": [
+    "Très grand"
+  ],
+  "Lhassa Apso": [
+    "Petit"
+  ],
+  "Lion d'Occitanie": [
+    "Très grand"
+  ],
+  "Malamute de l'Alaska": [
+    "Grand"
+  ],
+  "Mastiff": [
+    "Très grand"
+  ],
+  "Mâtin de Naples": [
+    "Très grand"
+  ],
+  "Mâtin des Pyrénées": [
+    "Très grand"
+  ],
+  "Mâtin Espagnol": [
+    "Très grand"
+  ],
+  "Montagne des Pyrénées": [
+    "Très grand"
+  ],
+  "Mudi": [
+    "Moyen"
+  ],
+  "Norfolk Terrier": [
+    "Petit"
+  ],
+  "Norwich Terrier": [
+    "Petit"
+  ],
+  "Parson Jack Russell Terrier": [
+    "Petit"
+  ],
+  "Pékinois": [
+    "Petit"
+  ],
+  "Perro de Presa Mallorquin": [
+    "Grand"
+  ],
+  "Petit Basset Griffon Vendéen": [
+    "Moyen"
+  ],
+  "Petit Bleu de Gascogne": [
+    "Moyen"
+  ],
+  "Petit Brabancon": [
+    "Petit"
+  ],
+  "Petit Chien Courant Bernois": [
+    "Moyen"
+  ],
+  "Petit Chien Courant de Schwyz": [
+    "Moyen"
+  ],
+  "Petit Chien Courant du Jura": [
+    "Moyen"
+  ],
+  "Petit Chien Courant Lucernois": [
+    "Moyen"
+  ],
+  "Petit Chien Hollandais de Chasse au gibier d'eau": [
+    "Moyen"
+  ],
+  "Petit Chien Lion": [
+    "Petit"
+  ],
+  "Petit Gascon Saintongeois": [
+    "Moyen"
+  ],
+  "Petit Lévrier Italien": [
+    "Petit"
+  ],
+  "Petit Munsterlander": [
+    "Moyen"
+  ],
+  "Pinscher Autrichien à poil court": [
+    "Moyen"
+  ],
+  "Pinscher Moyen": [
+    "Moyen"
+  ],
+  "Pinscher Nain": [
+    "Petit"
+  ],
+  "Podenco Canario": [
+    "Moyen"
+  ],
+  "Podenco Ibicenco de pelo corto": [
+    "Moyen"
+  ],
+  "Podenco Ibicenco de pelo duro": [
+    "Moyen"
+  ],
+  "Podengo Portugais Grande": [
+    "Moyen"
+  ],
+  "Podengo Portugais Medio": [
+    "Moyen"
+  ],
+  "Podengo Portugais Pequeno": [
+    "Petit"
+  ],
+  "Pointer Anglais": [
+    "Moyen"
+  ],
+  "Poitevin": [
+    "Grand"
+  ],
+  "Porcelaine": [
+    "Grand"
+  ],
+  "Pudel Pointer": [
+    "Grand"
+  ],
+  "Puli": [
+    "Moyen"
+  ],
+  "Pumi": [
+    "Moyen"
+  ],
+  "Rafeiro de Alentejo": [
+    "Très grand"
+  ],
+  "Redbone Coonhound": [
+    "Grand"
+  ],
+  "Ratier praguois": [
+    "Petit"
+  ],
+  "Redtick Coonhound": [
+    "Grand"
+  ],
+  "Retriever à poil bouclé": [
+    "Grand"
+  ],
+  "Retriever à poil plat": [
+    "Grand"
+  ],
+  "Retriever de la baie de Chesapeake": [
+    "Grand"
+  ],
+  "Retriever de la nouvelle Ecosse": [
+    "Moyen"
+  ],
+  "Rhodesian Ridgeback": [
+    "Grand"
+  ],
+  "Rottweiler": [
+    "Très grand"
+  ],
+  "Saint Bernard": [
+    "Très grand"
+  ],
+  "Saint Hubert": [
+    "Très grand"
+  ],
+  "Saluki": [
+    "Moyen"
+  ],
+  "Samoyède": [
+    "Grand"
+  ],
+  "Sanshu": [
+    "Grand"
+  ],
+  "Schapendoes": [
+    "Moyen"
+  ],
+  "Schiller Stovare": [
+    "Moyen"
+  ],
+  "Schipperke": [
+    "Petit"
+  ],
+  "Schnauzer géant": [
+    "Très grand"
+  ],
+  "Schnauzer moyen": [
+    "Moyen"
+  ],
+  "Schnauzer nain": [
+    "Petit"
+  ],
+  "Sealyham Terrier": [
+    "Petit"
+  ],
+  "Setter Anglais": [
+    "Moyen"
+  ],
+  "Setter Gordon": [
+    "Grand"
+  ],
+  "Setter Irlandais rouge": [
+    "Moyen"
+  ],
+  "Setter Irlandais rouge et blanc": [
+    "Moyen"
+  ],
+  "Shar Peï": [
+    "Moyen"
+  ],
+  "Shiba": [
+    "Petit"
+  ],
+  "Shih Tzu": [
+    "Petit"
+  ],
+  "Sikoku": [
+    "Moyen"
+  ],
+  "Silky Terrier": [
+    "Petit"
+  ],
+  "Skye Terrier": [
+    "Petit"
+  ],
+  "Sloughi": [
+    "Grand"
+  ],
+  "Smalandsstovare": [
+    "Moyen"
+  ],
+  "Spinone Italiano": [
+    "Grand"
+  ],
+  "Spitz Allemand": [
+    "Petit"
+  ],
+  "Spitz de Norrbotten": [
+    "Petit"
+  ],
+  "Spitz Finlandais": [
+    "Moyen"
+  ],
+  "Spitz Italien": [
+    "Petit"
+  ],
+  "Spitz Japonais": [
+    "Petit"
+  ],
+  "Springer Spaniel Anglais": [
+    "Moyen"
+  ],
+  "Springer Spaniel Gallois": [
+    "Moyen"
+  ],
+  "Stabyhoun": [
+    "Moyen"
+  ],
+  "StaffordShire Bull Terrier": [
+    "Moyen"
+  ],
+  "Stichelhaar": [
+    "Moyen",
+    "Grand"
+  ],
+  "Sussex Spaniel": [
+    "Moyen"
+  ],
+  "Teckel à poil dur": [
+    "Petit"
+  ],
+  "Teckel à poil long": [
+    "Petit"
+  ],
+  "Teckel à poil ras": [
+    "Petit"
+  ],
+  "Teckel de Chasse au lapin à poil dur": [
+    "Petit"
+  ],
+  "Teckel de Chasse au lapin à poil long": [
+    "Petit"
+  ],
+  "Teckel de Chasse au lapin à poils ras": [
+    "Petit"
+  ],
+  "Teckel nain à poil dur": [
+    "Petit"
+  ],
+  "Teckel nain à poil long": [
+    "Petit"
+  ],
+  "Teckel nain à poil ras": [
+    "Petit"
+  ],
+  "Terre Neuve": [
+    "Très grand"
+  ],
+  "Terrier Australien": [
+    "Petit"
+  ],
+  "Terrier Brésilien": [
+    "Petit"
+  ],
+  "Terrier Dandie Dinmont": [
+    "Petit"
+  ],
+  "Terrier de Boston": [
+    "Petit"
+  ],
+  "Terrier de Manchester": [
+    "Petit"
+  ],
+  "Terrier du Tibet": [
+    "Petit"
+  ],
+  "Terrier Ecossais": [
+    "Petit"
+  ],
+  "Terrier Irlandais": [
+    "Moyen"
+  ],
+  "Terrier Irlandais à poil doux": [
+    "Moyen"
+  ],
+  "Terrier Irlandais Glen of Imaal": [
+    "Moyen"
+  ],
+  "Terrier japonais": [
+    "Moyen"
+  ],
+  "Terrier Noir Russe": [
+    "Grand"
+  ],
+  "Terrier Tchèque": [
+    "Petit"
+  ],
+  "Tosa": [
+    "Très grand"
+  ],
+  "Toy Terrier noir et feu": [
+    "Petit"
+  ],
+  "Welsh Corgi Cardigan": [
+    "Moyen"
+  ],
+  "Welsh Corgi Pembroke": [
+    "Moyen"
+  ],
+  "Welsh Terrier": [
+    "Petit"
+  ],
+  "West Highland White Terrier": [
+    "Petit"
+  ],
+  "Whippet": [
+    "Moyen"
+  ],
+  "Yorkshire Terrier": [
+    "Petit"
+  ]
+}
